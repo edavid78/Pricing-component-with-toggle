@@ -139,6 +139,7 @@ section {
 }
 
 .flex-container .basic-box, .flex-container .master-box, .flex-container .pro-box {
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding-left: 30px;
   padding-right: 30px;
@@ -178,9 +179,10 @@ section {
 
 .flex-container .pro-box {
   background: linear-gradient(to right, #a3a8f0, #696fdd);
+  z-index: -1;
   color: #fff !important;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .flex-container .pro-box ul {
