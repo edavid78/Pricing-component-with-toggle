@@ -157,7 +157,7 @@ section {
 .flex-container .basic-box button, .flex-container .master-box button, .flex-container .pro-box button {
   background: linear-gradient(to right, #a3a8f0, #696fdd) no-repeat;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 8px;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -179,7 +179,6 @@ section {
 
 .flex-container .pro-box {
   background: linear-gradient(to right, #a3a8f0, #696fdd);
-  z-index: -1;
   color: #fff !important;
   padding-top: 40px;
   padding-bottom: 50px;
